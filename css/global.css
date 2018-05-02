@@ -4254,3 +4254,6 @@ div.block-page {
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 20px; }
+
+span.sb-footer {
+  white-space: nowrap; }

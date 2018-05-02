@@ -22,8 +22,7 @@
 
 		<div class="site-info">
 			<span class="sb-footer">&copy; <?php echo date("Y");?> Sue Bartlett - All rights reserved.</span>
-			<span class="theme-info">
-				Made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a>.
+			<span class="theme-info sb-footer">Made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a>.
 			</span>
 		</div><!-- .site-info -->
 
