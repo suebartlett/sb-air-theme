@@ -2,6 +2,19 @@ div.nav-container {
   background: $_sb_frosted;
 }
 
+.site-header {
+  max-width:none;
+}
+
+@media only screen and (min-width: 960px) {
+nav .menu-item a {
+    color: #333;
+    font-size: 14px;
+    padding: 20px 6px;
+    font-weight: 600;
+}
+}
+
 .toggled-on nav {
   padding-top: 50px;
 }
