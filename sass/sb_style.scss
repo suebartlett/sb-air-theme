@@ -167,6 +167,11 @@ input[type="search"]:focus::placeholder {
   opacity: .8;
 }
 
+.top {
+  bottom: 30px;
+  right: 30px;
+}
+
 footer.site-footer {
   background: $_sb_ghost;
   padding: 10px 20px;

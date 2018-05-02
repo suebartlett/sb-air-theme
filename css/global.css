@@ -4492,6 +4492,10 @@ input[type="search"]:focus::placeholder {
   color: #807F7C;
   opacity: .8; }
 
+.top {
+  bottom: 30px;
+  right: 30px; }
+
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 20px; }
