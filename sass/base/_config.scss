@@ -16,26 +16,26 @@ $_sb_frosted: rgba(255,255,255,0.85);
 $_sb_ghost: rgba(255,255,255,0.2);
 
 // Colors
-$color-links: $_sb_blue;
-$color-hover: #606c76;
-$color-body: #333;
-$color-headings: #222;
-$color-body-darker: #444;
-$color-grey: #dadfe1;
-$color-darkgrey: #6c7a89;
-$color-lightgrey: #8e8e8e;
-$color-dark: #1a1a1a;
-$color-almostblack: #020202;
-$color-fog: #b0b0b0;
+$color-links: $_sb_grey;
+$color-hover: $_sb_beige;
+$color-body: $_sb_grey;
+$color-headings: $_sb_grey;
+$color-body-darker: $_sb_blue;
+$color-grey: $_sb_grey;
+$color-darkgrey: $_sb_dark;
+$color-lightgrey: $_sb_beige;
+$color-dark: $_sb_dark;
+$color-almostblack: $_sb_blue;
+$color-fog: $_sb_pink;
 
 // Font settings
 // You can use these font stacks normally with `font-family: $font-sans;` for instance.`
 // Please set up fonts in sass/layout/_typography.scss
-$font-base: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
-$font-headings: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
-$font-monospace: 'Menlo', 'Courier', monospace;
+$font-base: 'Montserrat', sans-serif;
+$font-headings: 'Montserrat', sans-serif;
+$font-monospace: 'IBM Plex Mono', monospace;
 
-// options
+// Font options
 //font-family: 'Montserrat', sans-serif;
 //font-family: 'Ubuntu', sans-serif;
 //font-family: 'IBM Plex Mono', monospace;

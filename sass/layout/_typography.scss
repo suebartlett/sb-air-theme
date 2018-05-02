@@ -388,12 +388,12 @@ blockquote {
   margin: 0;
 
   p {
-    @include responsive-font(2vw, 17px, 25px, 25px);
+    @include responsive-font(3vw, 19px, 25px, 25px);
     font-style: italic;
     margin-bottom: 0;
     position: relative;
     overflow: visible;
-    color: #666;
+    color: $_sb_blue;
   }
 
   @media (min-width: $container-ipad) {
