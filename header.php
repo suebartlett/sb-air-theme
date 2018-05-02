@@ -29,16 +29,20 @@
 
           <div class="site-branding">
             <?php if ( is_front_page() && is_home() ) : ?>
-              <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?><?php // include get_theme_file_path( '/svg/logo.svg' ); ?></a></h1>
+              <h1 class="site-title">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?><?php  include get_theme_file_path( '/svg/sb-logo-a-p.svg' ); ?></a>
+              </h1>
             <?php else : ?>
-              <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?><?php // include get_theme_file_path( '/svg/logo.svg' ); ?></a></p>
+              <p class="site-title">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?><?php  include get_theme_file_path( '/svg/sb-logo-a-p.svg' ); ?></a>
+              </p>
             <?php endif;
 
             $description = get_bloginfo( 'description', 'display' );
             if ( $description || is_customize_preview() ) : ?>
               <p class="site-description screen-reader-text"><?php echo $description; /* WPCS: xss ok. */ ?></p>
             <?php endif; ?>
-          </div><!-- .site-branding -->          
+          </div><!-- .site-branding -->
 
           <div class="main-navigation-wrapper" id="main-navigation-wrapper">
 

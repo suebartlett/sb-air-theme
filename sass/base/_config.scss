@@ -5,8 +5,18 @@
 // This is the core file where most of the theme magic happens.
 // --------------------------------------------------------------
 
+// Sue colours to replace others
+// http://www.colourlovers.com/palette/307137/Laudanum_Heartbeat
+$_sb_dark: #030A03;
+$_sb_blue: #0D3A40;
+$_sb_grey: #807F7C;
+$_sb_beige: #B6BDA8;
+$_sb_pink: #D9C8BD;
+$_sb_frosted: rgba(255,255,255,0.85);
+$_sb_ghost: rgba(255,255,255,0.2);
+
 // Colors
-$color-links: #045d30;
+$color-links: $_sb_blue;
 $color-hover: #606c76;
 $color-body: #333;
 $color-headings: #222;
@@ -24,6 +34,13 @@ $color-fog: #b0b0b0;
 $font-base: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
 $font-headings: 'Karla', 'Helvetica Neue', Helvetica, sans-serif;
 $font-monospace: 'Menlo', 'Courier', monospace;
+
+// options
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Ubuntu', sans-serif;
+//font-family: 'IBM Plex Mono', monospace;
+//font-family: 'Amatic SC', cursive;
+//font-family: 'Shadows Into Light', cursive;
 
 // Font settings
 $font-min-size: 19px; // Minimum font size, on mobile

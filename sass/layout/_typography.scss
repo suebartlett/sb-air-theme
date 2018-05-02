@@ -12,6 +12,24 @@
 @include fontFace('Karla', '../fonts/karla-bold', 700);
 @include fontFace('Karla', '../fonts/karla-bolditalic', 700, italic);
 
+// sb_fonts
+@include fontFace('Montserrat', '../fonts/Montserrat/Montserrat-Medium', 400);
+@include fontFace('Montserrat', '../fonts/Montserrat/Montserrat-MediumItalic', 400, italic);
+@include fontFace('Montserrat', '../fonts/Montserrat/Montserrat-Bold', 700);
+@include fontFace('Montserrat', '../fonts/Montserrat/Montserrat-BoldItalic', 700, italic);
+
+@include fontFace('Ubuntu', '../fonts/Ubuntu/Ubuntu-Medium', 400);
+@include fontFace('Ubuntu', '../fonts/Ubuntu/Ubuntu-MediumItalic', 400, italic);
+@include fontFace('Ubuntu', '../fonts/Ubuntu/Ubuntu-Bold', 700);
+@include fontFace('Ubuntu', '../fonts/Ubuntu/Ubuntu-BoldItalic', 700, italic);
+
+@include fontFace('ShadowsIntoLight', '../fonts/Shadows_Into_Light/ShadowsIntoLight', 400);
+
+@include fontFace('IBMPlexMono', '../fonts/IBM_Plex_Mono/IBMPlexMono-Medium', 400);
+@include fontFace('IBMPlexMono', '../fonts/IBM_Plex_Mono/IBMPlexMono-MediumItalic', 400, italic);
+@include fontFace('IBMPlexMono', '../fonts/IBM_Plex_Mono/IBMPlexMono-Bold', 700);
+@include fontFace('IBMPlexMono', '../fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic', 700, italic);
+
 // Set root size for rems
 :root {
   font-size: 62.5%;
