@@ -1758,14 +1758,14 @@ nav ul ul {
       float: left;
       margin: 0; }
       nav .menu-item a {
-        color: #333;
+        color: #807F7C;
         font-size: 16px;
         padding: 20px 12px;
         font-weight: 600; }
         nav .menu-item a.disabled {
           color: #bbb; }
         nav .menu-item a:hover, nav .menu-item a:focus, nav .menu-item a:active, nav .menu-item a.highlighted, nav .menu-item a.current {
-          color: #333; }
+          color: #807F7C; }
       nav .menu-item ul {
         position: absolute;
         background: #fff;
@@ -1819,7 +1819,7 @@ nav ul ul {
         nav .menu-item ul a {
           padding: .8rem 1.5rem;
           font-size: 1.4rem;
-          color: #333;
+          color: #807F7C;
           display: block; }
           nav .menu-item ul a:hover, nav .menu-item ul a:focus, nav .menu-item ul a:active, nav .menu-item ul a.highlighted {
             color: #807F7C; }
@@ -1917,7 +1917,7 @@ nav ul ul {
     width: 4rem;
     height: 2px;
     height: 0.2rem;
-    background-color: #333;
+    background-color: #807F7C;
     border-radius: 0;
     position: absolute;
     -webkit-transition-property: -webkit-transform;
@@ -3266,18 +3266,18 @@ nav ul ul {
   position: relative;
   display: none; }
   .nav-toggle span {
-    color: #333;
+    color: #807F7C;
     font-size: 1.2em; }
   .nav-toggle:focus {
     outline: none; }
     .nav-toggle:focus span span {
-      background-color: #333; }
+      background-color: #807F7C; }
     .nav-toggle:focus span:before, .nav-toggle:focus span:after {
-      background-color: #333; }
+      background-color: #807F7C; }
   .nav-toggle:hover, .nav-toggle:active {
-    color: #333; }
+    color: #807F7C; }
     .nav-toggle:hover span, .nav-toggle:active span {
-      color: #333; }
+      color: #807F7C; }
   @media (max-width: 959px) {
     .nav-toggle {
       display: block; } }

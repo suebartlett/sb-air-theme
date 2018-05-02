@@ -4,9 +4,9 @@
 // The main layout for the website navigation, for a desktop
 // devices only.
 // -----------------------------------------------------------
-$color-nav-dropdown-links: #333;
-$color-nav-links: #333;
-$color-nav-dropdown-links: #333;
+$color-nav-dropdown-links: $_sb_grey;
+$color-nav-links: $_sb_grey;
+$color-nav-dropdown-links: $_sb_grey;
 $dropdown-width: 19rem;
 $icon-arrow-right: '../svg/chevron-right-dark.svg';
 $icon-arrow-down: '../svg/chevron-down-dark.svg';
