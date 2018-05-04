@@ -171,6 +171,15 @@ input[type="search"]:focus::placeholder {
   right: 30px;
 }
 
+.gallery .gallery-item .gallery-caption {
+    display: none;
+}
+
+.gallery.gallery-columns-4 .gallery-item:nth-child(n) {
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
 footer.site-footer {
   background: $_sb_ghost;
   padding: 10px 20px;

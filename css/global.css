@@ -4495,6 +4495,13 @@ input[type="search"]:focus::placeholder {
   bottom: 30px;
   right: 30px; }
 
+.gallery .gallery-item .gallery-caption {
+  display: none; }
+
+.gallery.gallery-columns-4 .gallery-item:nth-child(n) {
+  margin-right: 3%;
+  margin-bottom: 3%; }
+
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 20px; }
