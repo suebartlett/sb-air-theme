@@ -4265,8 +4265,16 @@ div.nav-container {
 body.home .entry-header-demo {
   background-image: none; }
 
+main#main > div.container {
+  padding-top: 20px; }
+
 div.block-page {
   display: none; }
+
+main#main p:first-child {
+  margin-top: 29px;
+  margin-top: 29px;
+  margin-top: 2.9rem; }
 
 blockquote {
   font-family: 'Shadows Into Light', cursive;
