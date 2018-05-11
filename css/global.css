@@ -4503,12 +4503,19 @@ input[type="search"]:focus::placeholder {
   bottom: 30px;
   right: 30px; }
 
+/*
 .gallery .gallery-item .gallery-caption {
-  display: none; }
+    display: none;
+}
 
 .gallery .gallery-item {
-  margin-right: 3%;
-  margin-bottom: 3%; }
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+*/
+.tiled-gallery img {
+  margin: 2px !important;
+  /* Ensure that this value isn't overridden by themes that give content images blanket margins */ }
 
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);

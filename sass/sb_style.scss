@@ -180,6 +180,7 @@ input[type="search"]:focus::placeholder {
   right: 30px;
 }
 
+/*
 .gallery .gallery-item .gallery-caption {
     display: none;
 }
@@ -187,6 +188,11 @@ input[type="search"]:focus::placeholder {
 .gallery .gallery-item {
     margin-right: 3%;
     margin-bottom: 3%;
+}
+*/
+
+.tiled-gallery img {
+	margin: 2px !important; /* Ensure that this value isn't overridden by themes that give content images blanket margins */
 }
 
 footer.site-footer {
