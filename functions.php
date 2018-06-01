@@ -116,3 +116,8 @@ $my_image_title );
 wp_update_post( $my_image_meta );
 }
 }
+
+function sb_custom_tiled_gallery_width() {
+return '920';
+}
+add_filter( 'tiled_gallery_content_width', 'sb_custom_tiled_gallery_width' );

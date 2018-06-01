@@ -180,8 +180,24 @@ input[type="search"]:focus::placeholder {
   right: 30px;
 }
 
+<<<<<<< HEAD
 .galleria-info-title {
   display: none;
+=======
+/*
+.gallery .gallery-item .gallery-caption {
+    display: none;
+}
+
+.gallery .gallery-item {
+    margin-right: 3%;
+    margin-bottom: 3%;
+>>>>>>> 610e470f2e1755d21e7d5123f75fc772ffc44c6d
+}
+*/
+
+.tiled-gallery img {
+	margin: 2px !important; /* Ensure that this value isn't overridden by themes that give content images blanket margins */
 }
 
 footer.site-footer {
