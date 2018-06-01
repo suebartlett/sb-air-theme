@@ -180,13 +180,13 @@ input[type="search"]:focus::placeholder {
   right: 30px;
 }
 
-.galleria-info-description {
+.galleria-info-title {
   display: none;
 }
 
 footer.site-footer {
   background: $_sb_ghost;
-  padding: 10px 20px;
+  padding: 10px 20px 0;
 }
 
 span.sb-footer {
