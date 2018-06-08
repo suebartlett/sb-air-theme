@@ -4503,26 +4503,9 @@ input[type="search"]:focus::placeholder {
   bottom: 30px;
   right: 30px; }
 
-<<<<<<< HEAD
-.galleria-info-title {
-  display: none; }
+.galleria-info-description {
+  display: none !important; }
 
-=======
-/*
-.gallery .gallery-item .gallery-caption {
-    display: none;
-}
-
-.gallery .gallery-item {
-    margin-right: 3%;
-    margin-bottom: 3%;
-}
-*/
-.tiled-gallery img {
-  margin: 2px !important;
-  /* Ensure that this value isn't overridden by themes that give content images blanket margins */ }
-
->>>>>>> 610e470f2e1755d21e7d5123f75fc772ffc44c6d
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 20px 0; }
