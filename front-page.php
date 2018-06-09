@@ -22,10 +22,6 @@ get_header();
 <div id="content" class="content-area">
   <main role="main" id="main" class="site-main">
 
-    <div class="entry-header-demo">
-      
-    </div>
-
     <div class="block">
       <div class="container">
 
