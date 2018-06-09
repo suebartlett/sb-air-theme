@@ -184,9 +184,15 @@ input[type="search"]:focus::placeholder {
   display: none !important;
 }
 
+body.home footer.site-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 footer.site-footer {
   background: $_sb_ghost;
-  padding: 10px 20px 0;
+  padding: 10px 20px 10px;
 }
 
 span.sb-footer {

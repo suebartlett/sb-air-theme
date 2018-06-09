@@ -26,9 +26,14 @@ get_header(); ?>
 
 <div id="content" class="content-area">
   <main id="main" class="site-main">
-
-    
-
+		<?php if ( have_posts() ) {
+						while ( have_posts() ) {
+							the_post();
+							the_content();
+						}
+					} else {
+						get_template_part( 'template-parts/content', 'none' );
+					}  ?>
   </main><!-- #main -->
 </div><!-- #primary -->
 
