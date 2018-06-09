@@ -4511,10 +4511,12 @@ body.home footer.site-footer {
   position: fixed;
   bottom: 0; }
 
+/*
 footer.site-footer {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 10px 20px 10px; }
-
+  background: $_sb_ghost;
+  padding: 10px 20px 10px;
+}
+*/
 span.sb-footer {
   white-space: nowrap; }
 
