@@ -4506,13 +4506,10 @@ input[type="search"]:focus::placeholder {
 .galleria-info-description {
   display: none !important; }
 
-/*
-body.home footer.site-footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
-*/
+body.home div.container {
+  padding-top: 0;
+  padding-bottom: 0; }
+
 footer.site-footer {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 20px 10px; }
