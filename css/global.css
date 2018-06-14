@@ -4242,6 +4242,12 @@ ul.tags {
       .comment-list li .comment-time:hover {
         opacity: 1; }
 
+html, body, div#page {
+  height: 100%;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto; }
+
 div.nav-container {
   background: rgba(255, 255, 255, 0.85); }
 

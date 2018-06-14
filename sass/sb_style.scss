@@ -1,3 +1,10 @@
+html, body, div#page {
+  height: 100%;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 div.nav-container {
   background: $_sb_frosted;
 }
