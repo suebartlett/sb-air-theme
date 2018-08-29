@@ -21,9 +21,8 @@
         Start by removing this comment and until the next comment: -->
 
 		<div class="site-info">
-			<span class="sb-footer">&copy; <?php echo date("Y");?> Sue Bartlett </span><span class="sb-footer">All rights reserved.</span>
-			<span class="theme-info sb-footer"><a href="https://suebartlett.co.uk/cookies-and-privacy-policy/">privacy</a> | Made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a>.
-			</span>
+			<span class="sb-footer">&copy; <?php echo date("Y");?> Sue Bartlett, </span><span class="sb-footer">all rights reserved.</span>
+			<span class="theme-info sb-footer"><a href="https://suebartlett.co.uk/cookies-and-privacy-policy/">privacy</a> | made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a></span>
 		</div><!-- .site-info -->
 
         <!-- At least
