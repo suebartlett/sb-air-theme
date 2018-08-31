@@ -48,6 +48,11 @@ main#main p:first-child {
   margin-top: 2.9rem;
 }
 
+p.entry-time {
+  margin-top: 0;
+  color: $_sb_blue;
+}
+
 blockquote {
   font-family: 'Shadows Into Light', cursive;
   font-weight: 700;
