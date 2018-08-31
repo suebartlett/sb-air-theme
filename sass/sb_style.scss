@@ -48,9 +48,13 @@ main#main p:first-child {
   margin-top: 2.9rem;
 }
 
-p.entry-time {
-  margin-top: 0;
+p.entry-time time {
   color: $_sb_blue;
+}
+
+main#main p:first-child {
+    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 blockquote {
