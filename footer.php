@@ -21,8 +21,10 @@
         Start by removing this comment and until the next comment: -->
 
 		<div class="site-info">
-			<span class="sb-footer">&copy; <?php echo date("Y");?> Sue Bartlett, </span><span class="sb-footer">all rights reserved.</span>
-			<span class="theme-info sb-footer"><a href="https://suebartlett.co.uk/cookies-and-privacy-policy/">privacy</a> | made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a></span>
+			<span class="sb-footer">&copy; <?php echo date("Y");?> Sue Bartlett, all rights reserved.</span>
+			<span class="sb-footer"><a href="https://suebartlett.co.uk/cookies-and-privacy-policy/">privacy</a></span>
+			<span class="sb-footer">made by <a href="http://rikdeakin.com" target="_blank" rel="external noopener">Rik</a></span>
+			<span class="sb-footer"><?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?></span>
 		</div><!-- .site-info -->
 
         <!-- At least

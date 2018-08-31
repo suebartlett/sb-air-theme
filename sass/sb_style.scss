@@ -201,8 +201,14 @@ footer.site-footer {
   padding: 10px 20px 10px;
 }
 
+div.site-info {
+  width: 100%;
+}
+
 span.sb-footer {
   white-space: nowrap;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 span.sb-footer,
